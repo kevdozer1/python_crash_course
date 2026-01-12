@@ -1,0 +1,18 @@
+films = ['The Shining', 'Clockwork Orange', 'Barry Lyndon', 'Marvel']
+print(films[0])
+print(films[-1])
+films.append('DC')
+print(films)
+films.insert(2,'Spongebob')
+print(films)
+films.sort()
+print(films)
+films.reverse()
+print(films)
+del films[5]
+print(films)
+print(films.pop())
+print(films)
+films.remove('Marvel')
+print(films)
+print(len(films))

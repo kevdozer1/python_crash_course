@@ -1,0 +1,5 @@
+guests = ['jesus', 'jacob', 'esau']
+print('Hello ' + guests[0].title() + ", would you like to come to dinner?")
+print('Hello ' + guests[1].title() + ", would you like to come to dinner?")
+print('Hello ' + guests[2].title() + ", would you like to come to dinner?")
+print('I am inviting ' + str(len(guests)) + ' guests to dinner.')
